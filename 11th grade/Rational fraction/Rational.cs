@@ -56,6 +56,13 @@ namespace ConsoleApp2
         }
         public Rational Opposite()
         { return new Rational(-this.num, this.denum); }
+        public Rational Subtract(Rational B)
+        {
+            Rational C = B.Opposite();
+            C = this.SumWith(C);
+            C.Simplify();
+            return C;
+        }
     }
 
     class Program
@@ -101,6 +108,13 @@ namespace ConsoleApp2
             Console.WriteLine();
             Console.Write("Противоположната дроб на първата въведена е: ");
             c = a.Opposite();
+            c.Print();
+            Console.WriteLine();
+            a.Print();
+            Console.Write(" - ");
+            b.Print();
+            Console.Write(" = ");
+            c = a.Subtract(b);
             c.Print();
             Console.WriteLine();
         }
