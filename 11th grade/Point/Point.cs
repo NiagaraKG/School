@@ -28,6 +28,27 @@ namespace ConsoleApp1
             y2 = 2 * O.y - this.y;
             return new Point(x2, y2);
         }
+        public void PrintQuadrant()
+        {
+            string location = "";
+            if(this.x == 0)
+            {
+                if (this.y == 0) { location = "в центъра на координатната система."; }
+                else { location = "върху ординатната ос."; }
+            }
+            else if(this.y == 0) { location = "върху абсцисната ос."; }
+            else if(this.x > 0)
+            {
+                if(this.y > 0) { location = "в първи квадрант."; }
+                else { location = "в четвърти квадрант."; }
+            }
+            else
+            {
+                if (this.y > 0) { location = "във втори квадрант."; }
+                else { location = "в трети квадрант."; }
+            }
+            Console.WriteLine("Точката е разположена " + location);
+        }
     }
 
     class Program
@@ -49,8 +70,10 @@ namespace ConsoleApp1
             else { Console.WriteLine("Разстоянието между C и B е: " + C.Dist(B)); }
             Point M = A.Middle(B);
             Console.WriteLine("M(" + M.X + ";" + M.Y + ")");
+            M.PrintQuadrant();
             Point N = A.SymmetricTo(M);
             Console.WriteLine("N(" + N.X + ";" + N.Y + ")");
+            N.PrintQuadrant();
         }
     }
 }
