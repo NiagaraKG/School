@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp2
 {
@@ -54,6 +54,8 @@ namespace ConsoleApp2
             S.Simplify();
             return S;
         }
+        public Rational Opposite()
+        { return new Rational(-this.num, this.denum); }
     }
 
     class Program
@@ -95,6 +97,10 @@ namespace ConsoleApp2
             b.Print();
             Console.Write(" = ");
             c = a.SumWith(b);
+            c.Print();
+            Console.WriteLine();
+            Console.Write("Противоположната дроб на първата въведена е: ");
+            c = a.Opposite();
             c.Print();
             Console.WriteLine();
         }
