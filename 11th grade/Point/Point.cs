@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp1
 {
@@ -21,6 +21,13 @@ namespace ConsoleApp1
             Point M = new Point(x, y);
             return M;
         }
+        public Point SymmetricTo(Point O)
+        {
+            double x2, y2;
+            x2 = 2 * O.x - this.x;
+            y2 = 2 * O.y - this.y;
+            return new Point(x2, y2);
+        }
     }
 
     class Program
@@ -42,6 +49,8 @@ namespace ConsoleApp1
             else { Console.WriteLine("Разстоянието между C и B е: " + C.Dist(B)); }
             Point M = A.Middle(B);
             Console.WriteLine("M(" + M.X + ";" + M.Y + ")");
+            Point N = A.SymmetricTo(M);
+            Console.WriteLine("N(" + N.X + ";" + N.Y + ")");
         }
     }
 }
