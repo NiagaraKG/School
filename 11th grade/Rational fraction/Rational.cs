@@ -63,6 +63,7 @@ namespace ConsoleApp2
             C.Simplify();
             return C;
         }
+        public void PrintDecimal() { Console.WriteLine("{0:0.###}", (float)this.num/this.denum); }
     }
 
     class Program
@@ -117,6 +118,8 @@ namespace ConsoleApp2
             c = a.Subtract(b);
             c.Print();
             Console.WriteLine();
+            Console.Write("Десетичното представяне на първата дроб е: ");
+            a.PrintDecimal();
         }
     }
 }
