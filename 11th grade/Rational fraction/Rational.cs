@@ -64,6 +64,13 @@ namespace ConsoleApp2
             return C;
         }
         public void PrintDecimal() { Console.WriteLine("{0:0.###}", (float)this.num/this.denum); }
+        public void PrintImproper()
+        {
+            
+            if (this.num % this.denum == 0) { Console.Write(this.num/this.denum); }
+            else if(this.num < this.denum) { this.Print(); }
+            else { Console.Write("{0} {1}/{2}", this.num/this.denum, this.num%this.denum, this.denum); }
+        }
     }
 
     class Program
@@ -76,7 +83,7 @@ namespace ConsoleApp2
             a.Print();
             Console.Write(" = ");
             a.Simplify();
-            a.Print();
+            a.PrintImproper();
             Console.WriteLine();
             Console.Write("Въведете числител: "); num = int.Parse(Console.ReadLine());
             Console.Write("Въведете знаменател: "); denum = int.Parse(Console.ReadLine());
@@ -84,39 +91,39 @@ namespace ConsoleApp2
             b.Print();
             Console.Write(" = ");
             b.Simplify();
-            b.Print();
+            b.PrintImproper();
             Console.WriteLine();
-            a.Print();
+            a.PrintImproper();
             Console.Write(" * ");
-            b.Print();
+            b.PrintImproper();
             Console.Write(" = ");
             Rational c = a.MultiplyBy(b);
-            c.Print();
+            c.PrintImproper();
             Console.WriteLine();
-            a.Print();
+            a.PrintImproper();
             Console.Write(" : ");
-            b.Print();
+            b.PrintImproper();
             Console.Write(" = ");
             c = a.DivideBy(b);
-            c.Print();
+            c.PrintImproper();
             Console.WriteLine();
-            a.Print();
+            a.PrintImproper();
             Console.Write(" + ");
-            b.Print();
+            b.PrintImproper();
             Console.Write(" = ");
             c = a.SumWith(b);
-            c.Print();
+            c.PrintImproper();
             Console.WriteLine();
             Console.Write("Противоположната дроб на първата въведена е: ");
             c = a.Opposite();
-            c.Print();
+            c.PrintImproper();
             Console.WriteLine();
-            a.Print();
+            a.PrintImproper();
             Console.Write(" - ");
-            b.Print();
+            b.PrintImproper();
             Console.Write(" = ");
             c = a.Subtract(b);
-            c.Print();
+            c.PrintImproper();
             Console.WriteLine();
             Console.Write("Десетичното представяне на първата дроб е: ");
             a.PrintDecimal();
