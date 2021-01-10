@@ -10,11 +10,7 @@ namespace ConsoleApp1
         public Point(double x, double y) { this.x = x; this.y = y; }
         public Point(Point B) { this.x = B.x; this.y = B.y; }
         public double Dist(Point B) { return Math.Sqrt(Math.Pow(this.x - B.X, 2) + Math.Pow(this.y - B.Y, 2)); }
-        public bool CheckIfMatch(Point B)
-        {
-            if (Dist(B) == 0) { return true; }
-            return false;
-        }
+        public bool CheckIfMatch(Point B) { return Dist(B) == 0; }
         public Point Middle(Point B)
         {
             double x = (this.x + B.x) / 2, y = (this.y + B.y) / 2;
