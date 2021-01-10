@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Rational
 {
@@ -78,7 +78,8 @@ namespace Rational
         static void Main(string[] args)
         {
             Console.Write("Въведете броя на дробите: ");
-            int n = int.Parse(Console.ReadLine()), x, y;
+            int n = int.Parse(Console.ReadLine()), x, y, m = 0;
+            double max = double.MinValue;
             Rational[] Arr = new Rational[n];
             for (int i = 0; i < n; i++)
             {
@@ -88,7 +89,11 @@ namespace Rational
                 Arr[i].Print();
                 Console.Write(" = ");
                 Arr[i].PrintDecimal();
+                if (max < (double)x / y) { max = (double)x / y; m = i; }
             }
+            Console.Write("Най-голямата дроб е: ");
+            Arr[m].Print();
+            Console.WriteLine();
         }
     }
 }
