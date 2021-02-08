@@ -1,0 +1,13 @@
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\bin\Debug\netcoreapp3.1\01. Extract Person Information.exe
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\bin\Debug\netcoreapp3.1\01. Extract Person Information.deps.json
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\bin\Debug\netcoreapp3.1\01. Extract Person Information.runtimeconfig.json
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\bin\Debug\netcoreapp3.1\01. Extract Person Information.runtimeconfig.dev.json
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\bin\Debug\netcoreapp3.1\01. Extract Person Information.dll
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\bin\Debug\netcoreapp3.1\01. Extract Person Information.pdb
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\obj\Debug\netcoreapp3.1\01. Extract Person Information.csprojAssemblyReference.cache
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\obj\Debug\netcoreapp3.1\01. Extract Person Information.AssemblyInfoInputs.cache
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\obj\Debug\netcoreapp3.1\01. Extract Person Information.AssemblyInfo.cs
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\obj\Debug\netcoreapp3.1\01. Extract Person Information.csproj.CoreCompileInputs.cache
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\obj\Debug\netcoreapp3.1\01. Extract Person Information.dll
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\obj\Debug\netcoreapp3.1\01. Extract Person Information.pdb
+D:\Programming\C#\C# Fundamentals\Text Processing - More Exercise\01. Extract Person Information\obj\Debug\netcoreapp3.1\01. Extract Person Information.genruntimeconfig.cache
