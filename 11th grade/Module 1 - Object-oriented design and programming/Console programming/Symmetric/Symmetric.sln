@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distance", "Distance\Distance.csproj", "{CA7C0989-58E8-42DF-92C3-7DD29534D0C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadrants", "Quadrants\Quadrants.csproj", "{1EA6E4EF-5BF5-472F-9F05-AD7CEACCBF7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA7C0989-58E8-42DF-92C3-7DD29534D0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7C0989-58E8-42DF-92C3-7DD29534D0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7C0989-58E8-42DF-92C3-7DD29534D0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7C0989-58E8-42DF-92C3-7DD29534D0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA6E4EF-5BF5-472F-9F05-AD7CEACCBF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA6E4EF-5BF5-472F-9F05-AD7CEACCBF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA6E4EF-5BF5-472F-9F05-AD7CEACCBF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA6E4EF-5BF5-472F-9F05-AD7CEACCBF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87A4F5D1-7FD3-48C8-8AC3-A338F71631F9}
+	EndGlobalSection
+EndGlobal
