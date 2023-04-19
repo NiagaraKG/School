@@ -1,4 +1,0 @@
-sin -> Lissajous Curve Крива на Лисажу
-cos -> rose розета
-tan -> batteries
-cot ->
