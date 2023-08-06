@@ -1,3 +1,0 @@
-Task: Find all happy numbers from A to B inclusive.
-! Happy number is a number, which is equal to the sum of all its divisors, except the number itself. !
-Example: 6 = 1+2+3. 6 is a happy number.
