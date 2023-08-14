@@ -1,1 +1,0 @@
-Create a method that calculates the distance between 2 points in the Decard coordinate system.
