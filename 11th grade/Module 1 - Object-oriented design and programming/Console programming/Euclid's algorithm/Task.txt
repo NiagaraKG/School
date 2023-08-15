@@ -1,1 +1,1 @@
-Find the GCD (Greatest common divisor) of 2 integers, using the Euclid's algorithm.
+Find the GCD (Greatest common divisor) of 2 integers, using the Euclidus algorithm.
