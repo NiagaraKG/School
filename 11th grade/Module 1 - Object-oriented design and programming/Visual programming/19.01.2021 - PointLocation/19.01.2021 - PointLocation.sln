@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio
 VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.01.2021 - PointLocation", "19.01.2021 - PointLocation\19.01.2021 - PointLocation.csproj", "{99B0ABF9-C0B8-404F-A4FD-BBB91223D03E}"
