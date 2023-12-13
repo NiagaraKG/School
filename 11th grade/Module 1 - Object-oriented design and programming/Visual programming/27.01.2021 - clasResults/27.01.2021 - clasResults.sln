@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1259
-MinimumVisualStudioVersion = 10.0.40219.1
+MinimumVisualStudioVersion = 10.0.40219
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27.01.2021 - clasResults", "27.01.2021 - clasResults\27.01.2021 - clasResults.csproj", "{2AB50CEF-62B4-4BF4-A82B-89F36C1F0EF4}"
 EndProject
 Global
